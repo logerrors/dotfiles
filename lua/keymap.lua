@@ -59,6 +59,7 @@ map("n", "<C-d>", "9j", opt)
 map("n", "q", ":q<CR>", opt)
 map("n", "qq", ":q!<CR>", opt)
 map("n", "Q", ":qa!<CR>", opt)
+map("n", "wq", ":wq<CR>", opt)
 
 -- insert 模式下，跳到行首行尾
 map("i", "<C-a>", "<ESC>I", opt)

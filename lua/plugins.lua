@@ -9,6 +9,7 @@ packer.startup({
     use("arkav/lualine-lsp-progress")
     use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
     use({ "nvim-treesitter/nvim-treesitter" })
+    use({ "akinsho/toggleterm.nvim" })
   end,
   config = {
     max_jobs = 8,
