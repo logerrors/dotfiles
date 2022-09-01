@@ -10,6 +10,7 @@ packer.startup({
     use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
     use({ "nvim-treesitter/nvim-treesitter" })
     use({ "akinsho/toggleterm.nvim" })
+    use {'ojroques/nvim-osc52'}
   end,
   config = {
     max_jobs = 8,

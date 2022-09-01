@@ -82,6 +82,10 @@ map("n", "<C-p>", ":Telescope find_files<CR>", opt)
 -- 全局搜索
 map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
 
+--map("n", "<leader>c", require('osc52').copy_operator, {expr = true})
+--map('x', '<leader>c', require('osc52').copy_visual)
+
+
 local pluginKeys = {}
 
 -- nvim-tree
